@@ -1,0 +1,12 @@
+d:\Users\seanf\Documents\Visual Studio 2015\Projects\S8_L67\P3\bin\Debug\P3.exe.config
+d:\Users\seanf\Documents\Visual Studio 2015\Projects\S8_L67\P3\bin\Debug\P3.exe
+d:\Users\seanf\Documents\Visual Studio 2015\Projects\S8_L67\P3\bin\Debug\P3.pdb
+d:\Users\seanf\Documents\Visual Studio 2015\Projects\S8_L67\P3\obj\Debug\P3.csprojResolveAssemblyReference.cache
+d:\Users\seanf\Documents\Visual Studio 2015\Projects\S8_L67\P3\obj\Debug\P3.exe
+d:\Users\seanf\Documents\Visual Studio 2015\Projects\S8_L67\P3\obj\Debug\P3.pdb
+B:\dev\UdemyCSBgnS8L67\P3\bin\Debug\P3.exe.config
+B:\dev\UdemyCSBgnS8L67\P3\bin\Debug\P3.exe
+B:\dev\UdemyCSBgnS8L67\P3\bin\Debug\P3.pdb
+B:\dev\UdemyCSBgnS8L67\P3\obj\Debug\P3.csprojResolveAssemblyReference.cache
+B:\dev\UdemyCSBgnS8L67\P3\obj\Debug\P3.exe
+B:\dev\UdemyCSBgnS8L67\P3\obj\Debug\P3.pdb

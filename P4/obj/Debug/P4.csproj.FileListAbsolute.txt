@@ -1,0 +1,12 @@
+d:\Users\seanf\Documents\Visual Studio 2015\Projects\S8_L67\P4\bin\Debug\P4.exe.config
+d:\Users\seanf\Documents\Visual Studio 2015\Projects\S8_L67\P4\bin\Debug\P4.exe
+d:\Users\seanf\Documents\Visual Studio 2015\Projects\S8_L67\P4\bin\Debug\P4.pdb
+d:\Users\seanf\Documents\Visual Studio 2015\Projects\S8_L67\P4\obj\Debug\P4.csprojResolveAssemblyReference.cache
+d:\Users\seanf\Documents\Visual Studio 2015\Projects\S8_L67\P4\obj\Debug\P4.exe
+d:\Users\seanf\Documents\Visual Studio 2015\Projects\S8_L67\P4\obj\Debug\P4.pdb
+B:\dev\UdemyCSBgnS8L67\P4\bin\Debug\P4.exe.config
+B:\dev\UdemyCSBgnS8L67\P4\bin\Debug\P4.exe
+B:\dev\UdemyCSBgnS8L67\P4\bin\Debug\P4.pdb
+B:\dev\UdemyCSBgnS8L67\P4\obj\Debug\P4.csprojResolveAssemblyReference.cache
+B:\dev\UdemyCSBgnS8L67\P4\obj\Debug\P4.exe
+B:\dev\UdemyCSBgnS8L67\P4\obj\Debug\P4.pdb

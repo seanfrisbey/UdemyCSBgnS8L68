@@ -1,0 +1,7 @@
+d:\Users\seanf\Documents\Visual Studio 2015\Projects\S8_L67\P5\bin\Debug\P5.exe.config
+B:\dev\UdemyCSBgnS8L67\P5\bin\Debug\P5.exe.config
+B:\dev\UdemyCSBgnS8L67\P5\bin\Debug\P5.exe
+B:\dev\UdemyCSBgnS8L67\P5\bin\Debug\P5.pdb
+B:\dev\UdemyCSBgnS8L67\P5\obj\Debug\P5.csprojResolveAssemblyReference.cache
+B:\dev\UdemyCSBgnS8L67\P5\obj\Debug\P5.exe
+B:\dev\UdemyCSBgnS8L67\P5\obj\Debug\P5.pdb
