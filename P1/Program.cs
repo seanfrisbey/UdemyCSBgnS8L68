@@ -14,7 +14,6 @@ namespace P1
     {
         static void Main(string[] args)
         {
-            bool consecutive = true;
             string message;
 
             Console.Write("Please enter 5 integers separated with hyphens: ");
