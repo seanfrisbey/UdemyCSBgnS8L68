@@ -14,14 +14,21 @@ namespace P1
     {
         static void Main(string[] args)
         {
-            bool ascending = false;
             bool consecutive = true;
+            string message;
 
             Console.Write("Please enter 5 integers separated with hyphens: ");
             var numbersString = Console.ReadLine();
             Console.WriteLine();
 
-            var numbers = numbersString.Split('-');
+            message = areNumbersConsecutive(numbersString) ? "The numbers you provided were consecutive." : "The numbers you provided were not consecutive.";
+            Console.WriteLine(message);
+        }
+
+        static private bool areNumbersConsecutive(string inputString)
+        {
+            var numbers = inputString.Split('-');
+            bool ascending = false;
 
             for (var i = 1; i < numbers.Length; i++)
             {
@@ -31,8 +38,7 @@ namespace P1
                 {
                     if (i > 1 && ascending == false)
                     {
-                        consecutive = false;
-                        break;
+                        return false;
                     }
 
                     ascending = true;
@@ -41,24 +47,18 @@ namespace P1
                 {
                     if (i > 1 && ascending == true)
                     {
-                        consecutive = false;
-                        break;
+                        return false;
                     }
 
                     ascending = false;
                 }
                 else
                 {
-                    consecutive = false;
-                    break;
+                    return false;
                 }
             }
 
-            if (consecutive == true)
-                Console.WriteLine("The numbers you provided were consecutive.");
-            else
-                Console.WriteLine("The numbers you provided were not consecutive.");
-
+            return true;
         }
     }
 }

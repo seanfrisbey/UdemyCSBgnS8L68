@@ -10,3 +10,9 @@ B:\dev\UdemyCSBgnS8L67\P1\bin\Debug\P1.pdb
 B:\dev\UdemyCSBgnS8L67\P1\obj\Debug\P1.csprojResolveAssemblyReference.cache
 B:\dev\UdemyCSBgnS8L67\P1\obj\Debug\P1.exe
 B:\dev\UdemyCSBgnS8L67\P1\obj\Debug\P1.pdb
+D:\dev\cs\UdemyCSBgnS8L68\P1\bin\Debug\P1.exe.config
+D:\dev\cs\UdemyCSBgnS8L68\P1\bin\Debug\P1.exe
+D:\dev\cs\UdemyCSBgnS8L68\P1\bin\Debug\P1.pdb
+D:\dev\cs\UdemyCSBgnS8L68\P1\obj\Debug\P1.csprojResolveAssemblyReference.cache
+D:\dev\cs\UdemyCSBgnS8L68\P1\obj\Debug\P1.exe
+D:\dev\cs\UdemyCSBgnS8L68\P1\obj\Debug\P1.pdb
