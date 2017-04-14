@@ -15,32 +15,32 @@ namespace P2
     {
         static void Main(string[] args)
         {
-            var duplicateExists = false;
-
             Console.Write("Please enter a series of integers separated by hyphens: ");
             var numbersString = Console.ReadLine();
             Console.WriteLine();
 
+            var message = areThereDuplicates(numbersString) ? "A duplicate exists in your series of numbers." : "No duplicates exist in your series of numbers.";
+
+            Console.WriteLine(message);
+        }
+
+        static bool areThereDuplicates(string inputString)
+        {
             var numbers = new List<int>();
 
-            foreach (var number in numbersString.Split('-'))
+            foreach (var number in inputString.Split('-'))
                 numbers.Add(Convert.ToInt32(number));
 
             numbers.Sort();
 
             for (var i = 1; i < numbers.Count; i++)
             {
-                if (numbers[i] == numbers[i-1])
+                if (numbers[i] == numbers[i - 1])
                 {
-                    duplicateExists = true;
-                    break;
+                    return true;
                 }
             }
-
-            if (duplicateExists)
-                Console.WriteLine("A duplicate exists in your series of numbers.");
-            else
-                Console.WriteLine("No duplicates exist in your series of numbers.");
+            return false;
         }
     }
 }

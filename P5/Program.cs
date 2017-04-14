@@ -7,9 +7,6 @@
 
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace P5
 {
@@ -17,10 +14,14 @@ namespace P5
     {
         static void Main(string[] args)
         {
-            var vowels = new List<char>{ 'a', 'e', 'i', 'o', 'u' };
             Console.Write("Please enter an English word: ");
             var inputWord = Console.ReadLine().ToLower();
+            Console.WriteLine("There are {0} vowels in the word.", getNumberOfVowels(inputWord));
+        }
 
+        static int getNumberOfVowels(string inputWord)
+        {
+            var vowels = new List<char> { 'a', 'e', 'i', 'o', 'u' };
             var numberOfVowels = 0;
             for (var i = 0; i < inputWord.Length; i++)
             {
@@ -30,7 +31,7 @@ namespace P5
                 }
             }
 
-            Console.WriteLine("There are {0} vowels in the word.", numberOfVowels);
+            return numberOfVowels;
         }
     }
 }

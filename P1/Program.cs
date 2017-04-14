@@ -14,17 +14,15 @@ namespace P1
     {
         static void Main(string[] args)
         {
-            string message;
-
             Console.Write("Please enter 5 integers separated with hyphens: ");
             var numbersString = Console.ReadLine();
             Console.WriteLine();
 
-            message = areNumbersConsecutive(numbersString) ? "The numbers you provided were consecutive." : "The numbers you provided were not consecutive.";
+            var message = areNumbersConsecutive(numbersString) ? "The numbers you provided were consecutive." : "The numbers you provided were not consecutive.";
             Console.WriteLine(message);
         }
 
-        static private bool areNumbersConsecutive(string inputString)
+        static bool areNumbersConsecutive(string inputString)
         {
             var numbers = inputString.Split('-');
             bool ascending = false;

@@ -16,12 +16,15 @@ namespace P3
         {
             Console.Write("Please enter a time in 24-hour format, formatted as HH:MM: ");
             var inputString = Console.ReadLine();
+            var message = isValidTime(inputString) ? "OK." : "Invalid time entered.";
 
+            Console.WriteLine(message);
+        }
+
+        static bool isValidTime(string inputString)
+        {
             if (String.IsNullOrWhiteSpace(inputString))
-            {
-                Console.WriteLine("Invalid time entered");
-                return;
-            }
+                return false;
 
             var timeParts = inputString.Split(':');
 
@@ -31,14 +34,13 @@ namespace P3
                 var minutes = Convert.ToInt32(timeParts[1]);
 
                 if (hours >= 0 && hours <= 23 && minutes >= 0 && minutes <= 59)
-                    Console.WriteLine("OK");
+                    return true;
                 else
-                    Console.WriteLine("Invalid time entered");
+                    return false;
             }
             catch (Exception)
             {
-                Console.WriteLine("Invalid time entered");
-            }
+                return false;
         }
     }
 }

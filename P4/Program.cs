@@ -18,14 +18,18 @@ namespace P4
         {
             Console.Write("Please enter a few words separated by spaces: ");
             var inputString = Console.ReadLine();
+            Console.WriteLine(toVariableName(inputString));
+        }
 
+        static string toVariableName(string inputString)
+        {
             var variableName = "";
             foreach (var word in inputString.Split(' '))
             {
                 variableName += char.ToUpper(word[0]) + word.ToLower().Substring(1);
             }
 
-            Console.WriteLine(variableName);
+            return variableName;
         }
     }
 }
